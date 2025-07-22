@@ -1,12 +1,19 @@
-# React + Vite
+# React hook form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una práctica básica para aprender a utilizar la librería React Hook Form en un formulario de registro con validación.
 
-Currently, two official plugins are available:
+### Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React
+React Hook Form
+CSS
 
-## Expanding the ESLint configuration
+### Objetivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El objetivo principal es aprender a:
+Integrar react-hook-form en un componente React
+Registrar inputs usando el hook useForm
+Validar campos como nombre, email y contraseña
+Mostrar mensajes de error personalizados
+Usar watch para reaccionar a cambios de valores (como el checkbox de términos)
+Habilitar o deshabilitar el botón de envío según condiciones del formulario
