@@ -23,6 +23,7 @@ export const Form = () => {
         <input
           type='text'
           id='name'
+          className={formState.errors.name ? 'errorInput' : ''}
           {...register('name', {
             required: {
               value: true,
@@ -39,6 +40,7 @@ export const Form = () => {
         <input
           type='text'
           id='email'
+          className={formState.errors.email ? 'errorInput' : ''}
           {...register('email', {
             required: {
               value: true,
@@ -59,6 +61,7 @@ export const Form = () => {
         <input
           type='password'
           id='password'
+          className={formState.errors.password ? 'errorInput' : ''}
           {...register('password', {
             required: {
               value: true,
